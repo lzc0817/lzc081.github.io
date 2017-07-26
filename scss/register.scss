@@ -1,0 +1,139 @@
+
+@charset "utf-8";
+@import "common";
+
+.main{
+    width: 1000px;
+    margin: 0 auto;
+    .gd_rhead{
+            border: 1px solid #efefef;
+            background: #f8f8f8;
+            height: 90px;
+            margin-top: 30px;
+            div{
+                width: 610px;
+                margin: 10px auto 0;
+                   
+            }
+    }
+    .gd_info{
+        margin-top: 50px;
+        padding-left: 150px;
+        .denglu{
+            p{
+                 width: 180px;
+                 height: 20px;
+                 //background: red;
+                 margin-left: 79px;
+                 span{
+                     float:left ;
+                     display: block;
+                     width: 58px;
+                     height: 15px;
+                     border-radius: 10px;
+                     text-align: center;
+                     line-height: 15px;
+                     margin-top: 7px;
+                     background: #CCCCCC;
+                     border-right: 1px solid white;
+                 }
+            }
+        }
+        li{
+            div{
+                width: 300px;
+                height: 30px;
+                //background: red;
+                float:right;
+                color: red;
+                font-size: 14px;
+                margin-right: 200px;
+            }
+            margin: 20px 0;
+            a{
+                   // width: 190px;
+                    text-align: right;
+                    color: #666666;
+                    font-weight: 100;
+            }
+        }
+        .yanz{
+            a{
+                float: left;
+            }
+            p{
+                text-align: center;
+                line-height: 30px;
+                border: 1px solid #CDCDCD;
+                cursor: pointer;
+                float: left;
+                display: inline;
+                height: 30px;
+                width: 100px;
+                margin: -2px 3px 0 3px;
+            }
+            .seach{
+                width: 65px;
+                float: left;
+                border: 1px solid #ccc;
+                margin-left: 15px;
+                height: 26px;
+                line-height: 26px;
+                color: #666;
+                padding-left: 5px;
+            }
+            span{
+                opacity: 0.7;
+               display: block;
+                width: 30px;
+                height: 30px;
+                background: url(../img/code.png) no-repeat 7px -147px;
+                display: block;
+                float: left;
+                cursor: pointer;
+            }
+        }
+        .inp,.pwd,.pwdd{
+            border: 1px solid #ccc;
+            width: 175px;
+            height: 26px;
+            line-height: 26px;
+            color: #666;
+            padding-left: 5px;
+        }
+        .infoyz{
+             a{
+                float: left;
+            }
+            .yanzhen{
+                width: 65px;
+                float: left;
+                border: 1px solid #ccc;
+               // margin-left: 15px;
+                height: 26px;
+                line-height: 26px;
+                color: #666;
+                padding-left: 5px;
+            }
+            .getyz{
+                margin: 5px;
+            }
+            
+        }
+        .send{
+            background-color: #950B00;
+            border-color: #950B00;
+            font-size: 14px;
+            font-weight: bold;
+            height: 30px;
+            //background: url(../img/btn.png) repeat-x 0 -180px;
+            line-height: 27px;
+            border-radius: 2px 2px 2px 2px;
+            cursor: pointer;
+            display: inline-block;
+            padding: 0 10px;
+            color: #FFFFFF;
+            margin: 50px 0 0 50px;
+        }
+    }
+}

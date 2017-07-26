@@ -1,0 +1,261 @@
+@charset "utf-8";
+@import "common";
+
+body{
+    background: url(../img/list_bg.jpg) no-repeat -240px 0;
+}
+.main{
+    margin: 0 auto;
+    width: 1000px;
+    overflow: hidden;
+    .main_left{
+        margin-top: 20px;
+        float: left;
+        width: 190px;
+        p{
+           //height: 10px;
+            border-bottom: 1px solid #000000;
+            height: 20px;
+            line-height: 20px;
+            font-size: 12px;
+        }
+        .u1{
+            background: #C8C8C8;
+            h6{
+                line-height: 22px;
+                font-size: 12px;
+                font-weight: 900;
+            }
+            a{
+                color: #2b2b2b;
+                font-size: 12px;
+            }
+        }
+        h3{
+            font-size: 12px;
+            font-weight: 700;
+            padding-top: 5px;
+            overflow: hidden;
+            padding-left: 10px;
+            color: #404040;
+            border: 1px solid red;
+            border-bottom: 0;
+        }
+        .u2{
+            li{
+                 img:nth-child(1){
+                 max-height: 160px;
+                 max-width: 160px;
+                 vertical-align: middle;
+                 border: 1px solid #ccc;
+                //text-align: center;
+                 margin:10px auto;
+                   
+                }
+                a{
+                        color: #2953A6;
+                        font-size: 12px;
+                        text-align: center;
+                        line-height: 1.2px;
+                }
+                a:hover{
+                    color: red;
+                }
+                span{
+                    color: #999999;
+                    padding-right: 4px;
+                    font-size: 12px;
+                    margin-left: 30px;
+                }
+                strong{
+                      background: url(../img/icon3.png) -3px -305px no-repeat;
+                       color: #FF6600;
+                       padding-left: 15px;
+                }
+                div{
+                    font-size: 12px;
+                    text-align: center;
+                    em{
+                        color: #CEAA00;
+                        font-weight: 700;
+                        padding: 0 0.5em;
+                        font-family: tahoma,arial,SimSun;
+                    }
+                }
+            }
+            
+        }
+    }
+    .main_right{
+            margin-left: 10px;
+            float: left;
+            width: 750px;
+            .imgShow{
+                margin-top: 20px;
+                display: block;
+                width: 750px;
+                height: 350px;
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            .seach{
+                    margin-top: 20px;
+                    background-color: #FCFCFC;
+                    border: 1px solid #E5E5E5;
+                    padding-bottom: 65px;
+                    width: 100%;
+                    h3{  
+                      margin-bottom: 10px;                     
+                      float: left;
+                      margin-right: 0.5em;
+                      color: #3366CC;
+                      font-size: 14px;
+                      font-weight: 900;
+                      width: 100%;
+
+                    }
+                    span{
+                        float: left;
+                    }
+                    div{
+                        margin-left: 30px;
+                        float: left;
+                       p:nth-child(1){
+                           height: 25px;
+                            float: left;
+                            padding-left: 50px;
+                            a{
+                                float: left;
+                                margin-left: -50px;
+                                text-align: right;
+                                width: 50px
+                            }
+                            input{
+                                    width: 109px
+                            }
+                       }
+                        p:nth-child(2), p:nth-child(3){
+                           height: 25px;
+                            float: left;
+                            padding-left: 50px;
+                            a{
+                                float: left;
+                                margin-left: -50px;
+                                text-align: right;
+                                width: 50px
+                            }
+                            input{
+                                    width: 45px
+                            }
+                       }
+                    }
+                    button{
+                           float: right;
+                           background: url(../img/button.png) no-repeat 0 0;
+                            border-width: 0;
+                            color: #FFFFFF;
+                            cursor: pointer;
+                            height: 26px;
+                            line-height: 26px;
+                            margin-top: 0;
+                            text-align: center;
+                            width: 80px;
+                            font-size: 12px;
+                            font-weight: 700;
+                            margin-right: 10px;
+                    }
+            }
+            
+            .show_img{
+           // margin-bottom: -226px;
+            width: 2000px;
+            position: relative;
+            left: 50%;
+            margin-left: -960px;
+            overflow: hidden;
+            .gd_tx{
+                    margin: 0 auto;
+                    width: 750px;
+                    margin-top: 10px;
+                     overflow: hidden;
+                    li{
+                        margin-right: 20px;
+                        height: 297px;
+                        float: left;
+                        img{
+                           height: 220px;
+                           width: 220px;
+                           border: 1px solid #ccc;
+                        }
+                        p{
+                            font-size: 12px;
+                            width: 220px;
+                            height: 33px;
+                            overflow: hidden;
+                            line-height: 17px;
+                        }
+                        span{
+                                display: block;
+                                color: #B8906D;
+                                font-size: 16px;
+                                font-weight: bold;
+                                width: 220px;
+                        }
+                        p:hover{
+                            color: deepskyblue;
+                        }
+                    }
+            }
+        }
+        .list_next{
+            widows: 750px;
+            height: 30px;
+            //background: cornflowerblue;
+            ul{
+                float: right;
+                li{
+                    float: left;
+                    margin: 5px;
+                    border: 1px solid #ccc;
+                   a{
+                      margin: 5px;
+                     color: blue;
+                   }
+                
+                }
+            }
+            button{
+                float: right;
+                background: url(../img/button.png) no-repeat 0 0;
+                border-width: 0;
+                color: #FFFFFF;
+                cursor: pointer;
+                font-size: 12px;
+                font-weight: 700;
+                height: 26px;
+                line-height: 26px;
+                margin-top: 0;
+                text-align: center;
+                width: 80px;
+                margin-top: 2px;
+            }
+            p{
+                float: right;
+                margin: 0 5px;
+                line-height: 30px;
+                input{
+                        border: 1px solid #A7A6AA;
+                        height: 16px;
+                        font-size: 100%;
+                        margin: 0 0.5em;
+                        padding: 0 3px;
+                        text-align: center;
+                        width: 25px;
+                }
+            }
+        }
+            
+    }
+}

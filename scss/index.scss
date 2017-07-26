@@ -1,0 +1,1297 @@
+@import "common";
+//nav
+
+//banner
+.gd_banner{
+   width:1331px;
+   position: relative;
+   overflow: hidden;
+   margin: 0 auto;
+    .gd_imgbox{
+        width: 700%;
+        //position: absolute;
+        img{
+           width:1331px;
+           float: left;
+        }
+       
+    }
+    .btn_left{
+        display: block;
+        width: 40px;
+        height: 105px;
+        position: absolute;
+        background: url(../img/jian.png);
+        left: 150px;
+        top:250px;
+        z-index: 2;
+        
+    }
+    .btn_right{
+        display: block;
+        width: 40px;
+        height: 105px;
+        position: absolute;
+        background: url(../img/jian.png) 40px 0 ;
+        right: 150px;
+        top:250px;
+        z-index: 2;
+        
+    }
+    .gd_pagination{
+        position: absolute;
+        z-index: 3;
+        left:440px;
+        top:550px;
+       i{
+           float: left;
+           display: block;
+           width: 35px;
+           height: 6px;
+           background:#ddd;
+           margin: 0 20px;
+       }
+    }
+}
+//warning
+.warning{
+    width: 100%;
+    img{
+       // margin: 0 auto;
+        width: 100%;
+    }
+    
+}
+
+
+//imgshow
+.imgShow{
+    width: 1200px;
+   // height: 1055px;
+    position: relative;
+    margin: 0 auto;
+    .img_first{
+           display: block;
+           width: 336px;
+           height: 352px;
+           top: 50px;
+           left: 118px;
+           z-index: 10;
+           position: absolute;
+    }
+    .img_second{
+        display: block;
+        width: 337px;
+        height: 606px;
+        top: 46px;
+        left: 493px;
+        z-index: 10;
+        position: absolute;
+    }
+    .img_three{
+        display: block;
+        width: 359px;
+        height: 362px;
+        top: 40px;
+        left: 850px;
+        z-index: 10;
+        position: absolute;
+    }
+    .img_four{
+         display: block;
+        width: 339px;
+        height: 624px;
+        top: 418px;
+        left: 115px;
+        z-index: 10;
+        position: absolute;
+    }
+    .img_five{
+        display: block;
+        width: 344px;
+        height: 377px;
+        top: 665px;
+        left: 486px;
+        z-index: 10;
+        position: absolute;
+    }
+    .img_six{
+        display: block;
+        width: 375px;
+        height: 645px;
+        top: 407px;
+        left: 847px;
+        z-index: 10;
+        position: absolute;
+    }
+}
+.img_show_tow{
+    height: 300px;
+    padding-left: 50px;
+    width: 1200px;
+    margin: 0 auto;
+   a{
+       float: left;
+       margin: 0 5px;
+   }
+    
+}
+.showLogo{ 
+    position: absolute;
+    top:146px;
+    left: 720px;
+    width: 480px;
+    height: 360px;
+    z-index: 10;
+    div{
+        position: relative;
+        width: 480px;
+        height: 360px;
+        background: url(../img/static1_head.png) 50% 50% no-repeat scroll;
+        line-height: normal;
+        a{
+            display: block;
+            width: 304px;
+            height: 52px;
+            top: 221px;
+            left: 88px;
+            z-index: 10;
+           position: absolute;
+        }
+    }  
+}
+
+//图片展示
+.showPic{
+    width: 1200px;
+    height: 1585px;
+    background:url(../img/new_03-0717.jpg) 50% 0 no-repeat;
+    line-height: normal;
+    position:absolute;
+    top: 505px;
+    left: 360px;
+    a:hover{
+        opacity: 0.1;
+        //filter:alpha(opacity=10); 
+        background:white;
+    }
+    .pic1{
+        //display: block;
+        width: 538px;
+        height: 748px;
+        top: 72px;
+        left: 62px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 538px;
+            height: 748px;
+            position: absolute;
+        }
+    }
+    .pic2{
+        //display: block;
+        width: 478px;
+        height: 671px;
+        top: 69px;
+        left: 659px;
+        z-index: 10;
+        position: absolute;
+        a{
+            top: 0px;
+            left: 0px;
+            width: 478px;
+            height: 671px;
+            position: absolute;
+        }
+    }
+    .pic3{
+        width: 398px;
+        height: 587px;
+        top: 912px;
+        left: 62px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 398px;
+            height: 587px;
+            position: absolute
+        } 
+    }
+    .pic4{
+        width: 619px;
+        height: 586px;
+        top: 913px;
+        left: 518px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 619px;
+            height: 586px;
+            position: absolute;
+
+        }
+    }
+}
+.showPic2{
+    position:absolute;
+    top: 2090px;
+    left: 360px;
+   // overflow: hidden;
+    width: 1200px;
+    height: 1518px;
+    a:hover{
+        opacity: 0.1;
+       // filter:alpha(opacity=10); 
+        background:white;
+    }
+    background: url(../img/new_04-0717.jpg) 50% 0% repeat ;
+    .pic1{
+        width: 621px;
+        height: 584px;
+        top: 1px;
+        left: 62px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 621px;
+            height: 584px;
+            position: absolute;
+        }
+    }
+    .pic2{
+        width: 396px;
+        height: 585px;
+        top: 0px;
+        left: 742px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 396px;
+            height: 585px;
+            position: absolute;
+        }
+    }
+    .pic3{
+        width: 534px;
+        height: 746px;
+        top: 680px;
+        left: 64px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 534px;
+            height: 746px;
+            position: absolute; 
+            // z-index:11;   
+        }
+    }
+    .pic4{
+        width: 481px;
+        height: 324px;
+        top: 680px;
+        left: 657px;
+        z-index: 10;
+    position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;;
+            width: 481px;
+            height: 324px;
+            position: absolute;
+        }
+    }
+    .pic5{
+        width: 482px;
+        height: 322px;
+        top: 1104px;
+        left: 656px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 482px;
+            height: 322px;
+            position: absolute;  
+        }
+    }
+}
+.show_pic{
+    top:505px;
+    left: 360px;
+    position: absolute;
+    overflow: hidden;
+    width: 1200px;
+    height: 1579px;
+    background: url(../img/hot_05-0717.jpg) 50% 0% no-repeat;
+    a:hover{
+        opacity: 0.1;
+        filter:alpha(opacity=10); 
+        background:white;
+    }
+    .pic1{
+        width: 538px;
+        height: 748px;
+        top: 64px;
+        left: 62px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 538px;
+            height: 748px;
+            position: absolute;
+        }
+    }
+    .pic2{
+        width: 478px;
+        height: 671px;
+        top: 62px;
+        left: 659px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 478px;
+            height: 671px;
+            position: absolute;
+        }
+    }
+    .pic3{
+        width: 398px;
+        height: 587px;
+        top: 912px;
+        left: 62px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 398px;
+            height: 587px;
+            position: absolute;
+        }
+    }
+    .pic4{
+        width: 619px;
+        height: 586px;
+        top: 913px;
+        left: 518px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 619px;
+            height: 586px;
+            position: absolute;   
+        }
+    }
+}
+.show_pic2{
+    position:absolute;
+    top:2084px;
+    left: 360px;
+    overflow: hidden;
+    width: 1200px;
+    height: 1521px;
+    a:hover{
+        opacity: 0.1;
+        filter:alpha(opacity=10); 
+        background:white;
+    }
+    background: url(../img/hot_06-0717.jpg) 50% 0% no-repeat;
+    .pic1{
+        width: 536px;
+        height: 748px;
+        top: 1px;
+        left: 62px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 536px;
+            height: 748px;
+            position: absolute;
+        }
+    }
+    .pic2{
+        width: 480px;
+        height: 325px;
+        top: 0px;
+        left: 658px;
+        z-index: 10;
+        position: absolute;
+        a{
+           display: block;
+            top: 0px;
+            left: 0px;
+            width: 480px;
+            height: 325px;
+            position: absolute; 
+        }
+    }
+    .pic3{
+        width: 480px;
+        height: 324px;
+        top: 425px;
+        left: 658px;
+        z-index: 10;
+        position: absolute;
+        a{
+           display: block;
+            top: 0px;
+            left: 0px;
+            width: 480px;
+            height: 324px;
+            position: absolute; 
+        }
+    }
+    .pic4{
+        width: 620px;
+        height: 587px;
+        top: 839px;
+        left: 64px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 620px;
+            height: 587px;
+            position: absolute;
+        }
+    }
+    .pic5{
+        width: 396px;
+        height: 587px;
+        top: 839px;
+        left: 742px;
+        z-index: 10;
+        position: absolute;
+        a{
+            display: block;
+            top: 0px;
+            left: 0px;
+            width: 396px;
+            height: 587px;
+            position: absolute; 
+        }
+    }
+}
+//推荐
+.gd_recommend{
+    margin-bottom: 50px;
+    .recommend_head{
+        height: 74px;
+        width: 1920px;
+        position: relative;
+        left: 50%;
+        margin-left: -960px;
+        background: url(../img/dapei_head.jpg) 50% 0% no-repeat;
+    }
+    .recommend_list{ 
+      height: 30px;
+        ul{
+          width: 35%;
+          margin: 10px auto;
+            li{
+                width: 14%;
+                height: 20px;
+                float: left;
+                img{
+                  width: 70px;
+                  height: 20px;  
+                }
+            }
+        }
+    }
+}
+.recommend_img{
+    width: 1075px;
+    height:629px;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    a:hover{
+        opacity: 0.1;
+       //filter:alpha(opacity=10); 
+        background:white;
+    }
+   ul{
+       width: 800%;
+       height: 629px;
+       position: absolute;
+       left: 0;
+       top: 0;
+       li{
+           float: left;
+       }
+   }
+    .recommend_pic{
+        width: 1075px;
+        height: 629px;
+        position: relative;
+        //background: url(../img/mon.jpg)no-repeat;
+        .pic1{
+            width: 309px;
+            height: 309px;
+            top: 0px;
+            left: 0px;
+            z-index: 10;
+            position: absolute;
+            a{
+                display: block;
+                top: 0px;
+                left: 0px;
+                width: 309px;
+                height: 309px;
+                position: absolute;
+            }
+        }
+        .pic2{
+            width: 309px;
+            height: 308px;
+            top: 321px;
+            left: 0px;
+            z-index: 10;
+            position: absolute;
+            a{
+                display: block;
+                top: 0px;
+                left: 0px;
+                width: 309px;
+                height: 308px;
+                position: absolute;
+            }
+        }
+        .pic3{
+            width: 433px;
+            height: 629px;
+            top: 0px;
+            left: 321px;
+            z-index: 10;
+            position: absolute;
+            a{
+                    display: block;
+                    top: 0px;
+                    left: 0px;
+                    width: 433px;
+                    height: 629px;
+                    position: absolute;
+            }
+        }
+        .pic4{
+            width: 312px;
+            height: 309px;
+            top: 0px;
+            left: 763px;
+            z-index: 10;
+            position: absolute;
+            a{
+                   display: block;
+                    top: 0px;
+                    left: 0px;
+                    width: 312px;
+                    height: 309px;
+                    position: absolute;     
+            }
+        }
+        .pic5{
+            width: 312px;
+            height: 308px;
+            top: 321px;
+            left: 763px;
+            z-index: 10;
+            position: absolute;
+            a{
+                display: block;
+                top: 0px;
+                left: 0px;
+                width: 312px;
+                height: 308px;
+                position: absolute;
+            }
+        }
+    }
+    .rmo{
+        background: url(../img/mon.jpg);
+    }
+    .rms{
+        background: url(../img/tue.jpg);
+    }
+    .rmt{
+        background: url(../img/wed.jpg);
+    }
+    .rmf{
+        background: url(../img/thu.jpg);
+    }
+    .rmw{
+        background: url(../img/fri.jpg);
+    }
+    .rms{
+        background: url(../img/sat.jpg);
+    }
+    .recommend_pic2{
+        width: 1075px;
+        height: 629px;
+        position: relative;
+        background: url(../img/sun.jpg);
+        .pic1{
+            width: 309px;
+            height: 450px;
+            top: 70px;
+            left: 0px;
+            z-index: 10;
+            position: absolute;
+            a{
+                display: block;
+                top: 50px;
+                left: 0px;
+                width: 309px;
+                height: 450px;
+                position: absolute;
+            }
+        }
+        .pic2{
+            width: 433px;
+            height: 629px;
+            top: 0px;
+            left: 321px;
+            z-index: 10;
+            position: absolute;
+            a{
+                display: block;
+                top: 0px;
+                left: 0px;
+                width: 433px;
+                height: 629px;
+                position: absolute;
+            }
+        }
+        .pic3{
+            width: 312px;
+            height: 309px;
+            top: 0px;
+            left: 763px;
+            z-index: 10;
+            position: absolute;
+            a{
+                display: block;
+                top: 0px;
+                left: 0px;
+                width: 312px;
+                height: 309px;
+                position: absolute;
+            }
+        }
+        .pic4{
+            width: 312px;
+            height: 308px;
+            top: 321px;
+            left: 763px;
+            z-index: 10;
+            position: absolute;
+            a{
+                display: block;
+                top: 0px;
+                left: 0px;
+                width: 312px;
+                height: 308px;
+                position: absolute;
+            }
+        }
+    }
+}
+
+//春夏精品
+.gd_summer{
+    .summer_head{
+        height: 74px;
+        background-color: #fff;
+        width: 1920px;
+        position: relative;
+        left: 50%;
+        margin-left: -960px;
+        background: url(../img/chunxia_head.jpg) 50% 0% no-repeat scroll;
+    }
+    .summer_list{
+        ul{
+            width: 25%;
+            margin: 10px 38%;
+            height: 30px;
+            li{
+                height: 35px;
+                width: 20%;
+                float: left;
+            }
+        }
+        
+    }
+    .summer_img{
+        width: 1075px;
+        height:858px;
+        text-align: center;
+        position: relative;
+        margin: 0 auto;
+        overflow: hidden;
+        a:hover{
+            opacity: 0.1;
+           //filter:alpha(opacity=10); 
+            background:white;
+        }
+        .summer_pic{
+            width: 600%;
+            position: absolute;
+            left: 0;
+            top: 0;
+            .sum{
+                width: 1075px;
+                height:858px;
+                float: left;
+                position: relative;
+               background: url(../img/lian.jpg); 
+            }
+            .pic1{
+                width: 529px;
+                height: 404px;
+                top: 0px;
+                left: 0px;
+                z-index: 10;
+                position: absolute;
+                a{
+                    display: block;
+                    top: 0px;
+                    left: 0px;
+                    width: 529px;
+                    height: 404px;
+                    position: absolute;
+                }
+            }
+            .pic2{
+                width: 527px;
+                height: 402px;
+                top: 1px;
+                left: 548px;
+                z-index: 10;
+                position: absolute;
+                a{
+                    display: block;
+                    top: 0px;
+                    left: 0px;
+                    width: 527px;
+                    height: 402px;
+                    position: absolute;
+                }
+            }
+            .pic3{
+                width: 253px;
+                height: 345px;
+                top: 458px;
+                left: 1px;
+                z-index: 10;
+                position: absolute;
+                a{
+                    display: block;
+                    top: 0px;
+                    left: 0px;
+                    width: 253px;
+                    height: 345px;
+                    position: absolute;
+                }
+            }
+            .pic4{
+                width: 256px;
+                height: 346px;
+                top: 458px;
+                left: 272px;
+                z-index: 10;
+                position: absolute;
+                a{
+                    display: block;
+                    top: 0px;
+                    left: 0px;
+                    width: 256px;
+                    height: 346px;
+                    position: absolute;
+                }
+            }
+            .pic5{
+                width: 254px;
+                height: 345px;
+                top: 457px;
+                left: 547px;
+                z-index: 10;
+                position: absolute;
+                a{
+                    display: block;
+                    top: 0px;
+                    left: 0px;
+                    width: 254px;
+                    height: 345px;
+                    position: absolute;
+                }
+            }
+            .pic6{
+                width: 254px;
+                height: 348px;
+                top: 458px;
+                left: 821px;
+                z-index: 10;
+                position: absolute;
+                a{
+                    display: block;
+                    top: 0px;
+                    left: 0px;
+                    width: 254px;
+                    height: 348px;
+                    position: absolute;
+                }
+            }
+            .sumo{
+                background: url(../img/lian.jpg);
+            }
+            .sums{
+                background: url(../img/txu.jpg);
+            }
+            .sumt{
+                background: url(../img/shan.jpg);
+            }
+            .sumf{
+                background: url(../img/ku.jpg);
+            }
+            .sumw{
+                background: url(../img/xie.jpg);
+            }
+        }
+    }
+}
+
+//列表
+.gd_list{
+    width: 990px;
+    margin-top: 50px;
+    margin: 0 auto;
+    .gdList{
+        text-align: center;
+        width: 1140px;
+        position: relative;
+        overflow: hidden;
+        left: -75px;
+        z-index: 8;
+        background: #fff;
+        .gd_clo{
+            text-align: center;
+            width: 130px;
+            height: 270px;
+            float: left;
+            border-right: 1px solid #e5e5e5;
+            p{
+                width: 80px;
+                margin: 0 auto 25px;
+                font-weight: bold;
+                font-size: 16px;
+            }
+            li{
+                width: 80px;
+                margin: 0 auto 8px;
+                position: relative;
+                height: 26px;
+                line-height: 26px;
+                a{
+                     position: relative;
+                     span{
+                         display: block;
+                         width: 32px;
+                         height: 11px;
+                         background: url(../img/new.gif);
+                         position: absolute;
+                         top:5px;
+                         right: -34px;
+                     }
+                }
+               
+            }
+            
+        }
+    }
+}
+
+//T恤专区
+.tixu{
+   // margin-bottom: -226px;
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+    overflow: hidden;
+    .gd_thead{
+        width: 1920px;
+        position: relative;
+        height: 90px;
+        left: 50%;
+        margin-left: -960px;
+        background: url(../img/txuhead.jpg) no-repeat; 
+    }
+    .gd_tx{
+            margin: 0 auto;
+            width: 1012px;
+              overflow: hidden;
+            li{
+                margin-right: 20px;
+                height: 297px;
+                float: left;
+                img{
+                    width: 230px;
+                    height: 230px;
+                }
+                p{
+                    font-size: 12px;
+                    width: 220px;
+                    height: 33px;
+                    overflow: hidden;
+                    line-height: 17px;
+                }
+                span{
+                        display: block;
+                        color: #B8906D;
+                        font-size: 16px;
+                        font-weight: bold;
+                        width: 220px;
+                }
+                p:hover{
+                    color: deepskyblue;
+                }
+            }
+    }
+}
+
+//针织
+.zhengzhi{
+   // margin-bottom: -226px;
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+    overflow: hidden;
+    .gd_thead{
+        width: 1920px;
+        position: relative;
+        height: 90px;
+        left: 50%;
+        margin-left: -960px;
+        background: url(../img/zhengzhi.jpg) no-repeat; 
+    }
+    .gd_zz{
+            margin: 0 auto;
+            width: 1012px;
+              overflow: hidden;
+            li{
+                margin-right: 20px;
+                height: 297px;
+                float: left;
+                img{
+                    width: 230px;
+                    height: 230px;
+                }
+                p{
+                    font-size: 12px;
+                    width: 220px;
+                    height: 33px;
+                    overflow: hidden;
+                    line-height: 17px;
+                }
+                span{
+                        display: block;
+                        color: #B8906D;
+                        font-size: 16px;
+                        font-weight: bold;
+                        width: 220px;
+                }
+                p:hover{
+                    color: deepskyblue;
+                }
+            }
+    }
+}
+
+//衬衫
+.chenshan{
+   // margin-bottom: -226px;
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+    overflow: hidden;
+    .gd_thead{
+        width: 1920px;
+        position: relative;
+        height: 90px;
+        left: 50%;
+        margin-left: -960px;
+        background: url(../img/chenshan.jpg) no-repeat; 
+    }
+    .gd_cs{
+            margin: 0 auto;
+            width: 1012px;
+              overflow: hidden;
+            li{
+                margin-right: 20px;
+                height: 297px;
+                float: left;
+                img{
+                    width: 230px;
+                    height: 230px;
+                }
+                p{
+                    font-size: 12px;
+                    width: 220px;
+                    height: 33px;
+                    overflow: hidden;
+                    line-height: 17px;
+                }
+                span{
+                        display: block;
+                        color: #B8906D;
+                        font-size: 16px;
+                        font-weight: bold;
+                        width: 220px;
+                }
+                p:hover{
+                    color: deepskyblue;
+                }
+            }
+    }
+}
+
+//外套
+.waitao{
+   // margin-bottom: -226px;
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+    overflow: hidden;
+    .gd_thead{
+        width: 1920px;
+        position: relative;
+        height: 90px;
+        left: 50%;
+        margin-left: -960px;
+        background: url(../img/waitao.jpg) no-repeat; 
+    }
+    .gd_wt{
+            margin: 0 auto;
+            width: 1012px;
+              overflow: hidden;
+            li{
+                margin-right: 20px;
+                height: 297px;
+                float: left;
+                img{
+                    width: 230px;
+                    height: 230px;
+                }
+                p{
+                    font-size: 12px;
+                    width: 220px;
+                    height: 33px;
+                    overflow: hidden;
+                    line-height: 17px;
+                }
+                span{
+                        display: block;
+                        color: #B8906D;
+                        font-size: 16px;
+                        font-weight: bold;
+                        width: 220px;
+                }
+                p:hover{
+                    color: deepskyblue;
+                }
+            }
+    }
+}
+
+//裤装
+.kuzhuang{
+   // margin-bottom: -226px;
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+    overflow: hidden;
+    .gd_thead{
+        width: 1920px;
+        position: relative;
+        height: 90px;
+        left: 50%;
+        margin-left: -960px;
+        background: url(../img/kuzhuang.jpg) no-repeat; 
+    }
+    .gd_kz{
+            margin: 0 auto;
+            width: 1012px;
+              overflow: hidden;
+            li{
+                margin-right: 20px;
+                height: 297px;
+                float: left;
+                img{
+                    width: 230px;
+                    height: 230px;
+                }
+                p{
+                    font-size: 12px;
+                    width: 220px;
+                    height: 33px;
+                    overflow: hidden;
+                    line-height: 17px;
+                }
+                span{
+                        display: block;
+                        color: #B8906D;
+                        font-size: 16px;
+                        font-weight: bold;
+                        width: 220px;
+                }
+                p:hover{
+                    color: deepskyblue;
+                }
+            }
+    }
+}
+
+//包包
+.baobaog{
+   // margin-bottom: -226px;
+    width: 2000px;
+    position: relative;
+    left: 50%;
+    margin-left: -960px;
+    overflow: hidden;
+    .gd_thead{
+        width: 1920px;
+        position: relative;
+        height: 90px;
+        left: 50%;
+        margin-left: -960px;
+        background: url(../img/baobao.jpg) no-repeat; 
+    }
+    .gd_bb{
+            margin: 0 auto;
+            width: 1012px;
+              overflow: hidden;
+            li{
+                margin-right: 20px;
+                height: 297px;
+                float: left;
+                img{
+                    width: 230px;
+                    height: 230px;
+                }
+                p{
+                    font-size: 12px;
+                    width: 220px;
+                    height: 33px;
+                    overflow: hidden;
+                    line-height: 17px;
+                }
+                span{
+                        display: block;
+                        color: #B8906D;
+                        font-size: 16px;
+                        font-weight: bold;
+                        width: 220px;
+                }
+                p:hover{
+                    color: deepskyblue;
+                }
+            }
+    }
+}
+
+.listEnd{
+    .list_end{
+        margin: 0 auto;
+        padding: 30px 0;
+        width: 1036px;
+        overflow: hidden;
+        position: relative;
+        li{
+            position: relative;
+            top:0;
+            left:0;
+            float: left;
+            width: 119px;
+            height: 137px;
+            margin-left: 29px;
+            a{
+                position: absolute;
+            }
+        }
+    }
+ 
+}
+
+
+//下悬浮
+.gd_bottom{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 110px;
+    background: rgba(0,0,0,0.5);
+    z-index: 10000;
+    .bottom_img{
+            position: absolute;
+            top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           span{
+               position: absolute;
+               top: 2px;
+               right: 3px;
+               display: block;
+               width: 18px;
+               height: 18px; 
+              img{
+                  width: 100%;
+                  height: 100%;
+              }
+           }
+    }
+}
+
