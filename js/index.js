@@ -463,13 +463,14 @@ $(function(){
 				
 				
       //图片跳转
-      $('.gd_banner').click(function(){
-      	  location.href="html/detali.html";
-      })
-      
+      $('.gd_imgbox img').each(function(){
+     	$(this).click(function(){
+     		location.href = "./html/detali.html";
+     	})
+     })
      $('.imgShow a').each(function(){
      	$(this).click(function(){
-     		location.href = "../html/list.html";
+     		location.href = "./html/list.html";
      	})
      })
      
@@ -477,7 +478,7 @@ $(function(){
       $('.img_show_tow a').each(function(){
      	$(this).click(function(){
      		//alert(1)
-     		location.href = "../html/list.html";
+     		location.href = "./html/list.html";
      	})
      })
      
@@ -485,7 +486,7 @@ $(function(){
        $('.showPic a').each(function(){
      	$(this).click(function(){
      		//alert(1)
-     		location.href = "../html/detali.html";
+     		location.href = "./html/detali.html";
      	})
      })
        
@@ -493,35 +494,35 @@ $(function(){
        $('.showPic2 a').each(function(){
      	$(this).click(function(){
      		//alert(1)
-     		location.href = "../html/detali.html";
+     		location.href = "./html/detali.html";
      	})
      })
        
         $('.show_pic a').each(function(){
      	$(this).click(function(){
      		//alert(1)
-     		location.href = "../html/detali.html";
+     		location.href = "./html/detali.html";
      	})
      })
        
         $('.show_pic2 a').each(function(){
      	$(this).click(function(){
      		//alert(1)
-     		location.href = "../html/detali.html";
+     		location.href = "./html/detali.html";
      	})
      })
      
        $('.recommend_img a').each(function(){
      	$(this).click(function(){
      		//alert(1)
-     		location.href = "../html/detali.html";
+     		location.href = "./html/detali.html";
      	})
      })
        
          $('.summer_img a').each(function(){
      	$(this).click(function(){
      		//alert(1)
-     		location.href = "../html/detali.html";
+     		location.href = "./html/detali.html";
      	})
      })
      

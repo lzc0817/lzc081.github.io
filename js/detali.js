@@ -1,7 +1,7 @@
 
 
 $(function(){
-	
+	//微信下拉
 	$('.line li:eq(1)').mouseenter(function(){
 		$('.wxpic').animate({'height':'200px'},500);
 		$('.wxpic').css('border',' 1px solid #ccc');
@@ -10,8 +10,6 @@ $(function(){
   })
 	$('.weixin').mouseleave(function(){
 	    $('.wxpic').animate({'height':0},500);
-	   // $('.wxpic').stop();
-	    
 	  /*  $('.wxpic').css('borderColor','#f6f6f6');*/
 	   });
 	   
@@ -24,15 +22,19 @@ $(function(){
   })
 	$('.telshop').mouseleave(function(){
 	    $('.telpic').animate({'height':0},500);
-	     //$('.telpic').stop();
 	   /* $('.telpic').css('borderColor','#f6f6f6');*/
 	   });
-	   	//下拉菜单
+	
+	//下拉菜单
 	$('.pull_top').mouseenter(function(){
+		$('.nav_pull-down ul li').css('display','block');
 		$('.nav_pull-down ul').animate({'height':'486px'},500);
 	})
 	$('.nav_pull-down ul').mouseleave(function(){
-		$('.nav_pull-down ul').animate({'height':0},500);
+		$('.nav_pull-down ul').animate({'height':0},500,function(){
+			$('.nav_pull-down li').css('display','none');
+		});
+		
 	})
 	//li滑过
     var oLis=document.querySelectorAll('.nav_pull-down li');
@@ -48,6 +50,34 @@ $(function(){
     	
     	
     }  
+    //二级菜单
+	  $('.nav_left_first span').mouseenter(function(){
+	  	//alert(1)
+	   	 $('.nav_left_first div').animate({'height':'104px'},500);
+	   	 $('.nav_left_first div p').mouseover(function(){
+	   	 	$(this).css('background','#444851');
+	   	 })
+	   	  $('.nav_left_first div p').mouseout(function(){
+	   	 	$(this).css('background','#353535');
+	   	 })
+	   })
+	  $('.nav_left_first div').mouseleave(function(){
+	   	 $('.nav_left_first div').animate({'height':0},500);
+	   })
+	
+	  $('.nav_left_second span').mouseenter(function(){
+	   	 $('.nav_left_second div').animate({'height':'104px'},500);
+	   	 $('.nav_left_second div p').mouseover(function(){
+	   	 	$(this).css('background','#444851');
+	   	 })
+	   	  $('.nav_left_second div p').mouseout(function(){
+	   	 	$(this).css('background','#353535');
+	   	 })
+	   })
+	  $('.nav_left_second div').mouseleave(function(){
+	   	 $('.nav_left_second div').animate({'height':0},500);
+	  })
+	 
 	
 	
 	var filter=document.querySelector('.filter');
